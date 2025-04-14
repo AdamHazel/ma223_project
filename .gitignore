@@ -47,7 +47,6 @@ Thumbs.db
 *.sqlite
 
 # Personal or sensitive data
-data/*.csv
 data/*.tsv
 data/*.rds
 data/*.RData
