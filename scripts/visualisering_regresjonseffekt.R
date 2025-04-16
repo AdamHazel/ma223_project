@@ -1,4 +1,5 @@
 #TABELL_RESULTAT---------------------------------------------------------
+tabell <- describe_posterior(modell_brm, effects = "fixed", ci = 0.95)
 tabell_clean <- tabell[
   !grepl("Intercept", tabell$Parameter),
   c("Parameter", "Median", "CI_low", "CI_high", "pd")
